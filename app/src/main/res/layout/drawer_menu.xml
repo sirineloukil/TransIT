@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/draw_layout"
+    android:layout_height="wrap_content"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single"
+        android:visible="true">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/person"
+            android:title="Profile"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="partagez"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_Rate"
+            android:icon="@drawable/ic_star"
+            android:title="Nottez"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/nav_param"
+            android:checkable="false"
+            android:enabled="false"
+            android:icon="@drawable/ic_parametre"
+            android:title="paramétre"
+            android:visible="true" />
+
+    </group>
+
+</menu>

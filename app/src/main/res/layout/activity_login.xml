@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:padding="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/logo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bungee"
+            android:text="Bienvenue à TransVit"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <EditText
+            android:id="@+id/login_Email_Input"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textColorHint="@color/bbbbb"
+            android:textColor="@color/bbbbb"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/person"
+            android:drawableTint="@color/bbbbb"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+        <EditText
+            android:id="@+id/login_Password_Input"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Mot De Passe"
+            android:drawableLeft="@drawable/lock"
+            android:textColorHint="@color/bbbbb"
+            android:textColor="@color/bbbbb"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text=" Mot De Passe Oubliez ?"
+            android:textColor="@color/bbbbb"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+
+        <Button
+            android:id="@+id/log_in"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:text="Se Connecter"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/button1"
+            android:fontFamily="sans-serif-medium"
+            android:text=" S'inscrire'"
+            android:textColor="@color/bbbbb"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aller_1"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/el_bousten"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="19dp"
+        android:background="#F44336"
+        android:textColor="#fff"
+        android:text="1 El Bousten"
+        android:textSize="21dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/antic"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview_aller"/>
+
+</LinearLayout>

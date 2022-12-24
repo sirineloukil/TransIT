@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoixLangue"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Choisir Une Langue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,InefficientWeight,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btn_ar"
+        android:layout_marginTop="80dp"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@color/mybus"
+        android:textStyle="bold"
+        android:text="@string/Arabic"
+        tools:ignore="SpUsage" />
+    <Button
+        android:id="@+id/btn_fr"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@color/mybus"
+        android:textStyle="bold"
+        android:text="@string/French"
+        tools:ignore="SpUsage" />
+    <Button
+        android:id="@+id/btn_en"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@color/mybus"
+        android:textStyle="bold"
+        android:text="@string/English"
+        tools:ignore="SpUsage" />
+
+</LinearLayout>

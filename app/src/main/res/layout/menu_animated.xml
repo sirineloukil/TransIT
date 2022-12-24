@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Signaler"
+        android:id="@+id/signaler"
+        android:icon="@drawable/ic_warning">
+
+    </item>
+    <item
+        android:title="TransVit"
+        android:id="@+id/transvit"
+        android:icon="@drawable/logo">
+
+    </item>
+
+    <item
+        android:title="plan du réseau"
+        android:id="@+id/Plan"
+        android:icon="@drawable/ic_plan">
+
+    </item>
+    <item
+        android:title="espace client"
+        android:id="@+id/espace"
+        android:icon="@drawable/ic_account">
+
+    </item>
+</menu>
